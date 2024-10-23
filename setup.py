@@ -1,10 +1,14 @@
 from setuptools import setup, find_packages
 
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
+
 setup(
     name='myPackage',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     description='A simple Python package',
     author='Max Rerisi',
-    author_email='maxrerisi+pypackage@gmail.com'
+    install_requires=required
 )
