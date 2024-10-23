@@ -5,8 +5,8 @@ with open('requirements.txt') as f:
 
 
 setup(
-    name='max-package',
-    version='0.3',
+    name='maxpackage',
+    version='0.4',
     packages=find_packages(),
     description='A simple Python package',
     author='Max Rerisi',
