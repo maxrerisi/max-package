@@ -1,4 +1,4 @@
 from .euclidean_distance import euclidean_distance
-from .seed_everything import my_function2
+from .seed_everything import seed_everything
 
-__all__ = ['my_function1', 'euclidean_distance']
+__all__ = ['seed_everything', 'euclidean_distance']
