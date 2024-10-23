@@ -1,5 +1,12 @@
 import math
 def euclidean_distance(a: tuple, b: tuple) -> tuple:
+    """
+    Calculate the Euclidean Distance between two tuples.
+
+    Keyword arguments:
+    a -- the first point
+    b -- the second point
+    """
     if len(a) != len(b):
         raise SyntaxError("Tuples a and b should be the same length.")
     
